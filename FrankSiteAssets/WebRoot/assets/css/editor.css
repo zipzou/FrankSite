@@ -1,0 +1,49 @@
+@CHARSET "UTF-8";
+
+.am-editor-title {
+	height: 48px;
+	margin-bottom: 8px;
+}
+
+.am-editor-title a {
+	line-height: 48px;
+    font-size: 28px;
+}
+
+.am-editor-title .am-title-container {
+	margin-top: 16px;
+	margin-bottom: 24px;
+}
+
+.am-editor-title .am-article-title-input {
+	height: 48px;
+	color: #0e90d2;
+	font-size: 28px;
+}
+
+.am-form {
+	margin-top: 12px;
+}
+
+.am-form .am-form-group label {
+	margin-right: 16px;
+}
+
+@media only screen and (min-width: 641px) {
+	iframe {
+		height: 70%;
+	}
+}
+
+
+.am-selected-list {
+	max-height: 360px;
+	overflow: scroll;
+	width: 100%;
+	
+}
+
+
+.am-publish-body {
+	margin-bottom: 16px;
+}

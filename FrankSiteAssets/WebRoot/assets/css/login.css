@@ -1,0 +1,67 @@
+@CHARSET "UTF-8";
+
+
+.am-login-panel {
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80%;
+}
+
+.am-login-panel > .am-panel-hd > a[class^='am-icon']{
+    padding-right: 8px;
+    color: #333;
+    font-size: 17px;
+}
+
+.am-login-panel .am-panel-bd .am-forget-pw {
+	font-size: 12px;
+	padding-bottom: 16px;
+    text-align: right;
+}
+
+.am-login-panel .am-panel-bd .am-return-index {
+    text-align: left;
+    font-size: 12px;
+	padding-bottom: 16px;
+}
+
+.am-form-group .am-img-responsive {
+	width: 100%;
+	height: 36px;
+	cursor: pointer;
+}
+
+.am-form-group > i[class^='am-icon'] {
+	line-height: 38px;
+}
+
+.am-form input.am-warn-group {
+	border-color: red;
+}
+
+.am-form input.am-success-input {
+	border-color: #4CAF50;
+}
+
+.first-indent {
+    text-indent: 2em;
+}
+
+.header {
+	text-align: center;
+}
+
+.header h1 {
+	font-size: 200%;
+	color: #333;
+	margin-top: 30px;
+}
+
+.header p {
+	font-size: 14px;
+}
+
+.am-form-icon label~[class*=am-icon-] {
+	display: inline-block;
+}

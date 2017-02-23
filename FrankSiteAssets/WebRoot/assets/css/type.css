@@ -1,0 +1,4 @@
+@CHARSET "UTF-8";
+.am-content [class*=am-u-]+[class*=am-u-]:last-child {
+	float: left;
+}

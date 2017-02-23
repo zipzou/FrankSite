@@ -1,0 +1,43 @@
+<link rel="stylesheet" href="css/editormd.min.css" />
+<script src="lib/jquery-2.1.4.min.js"></script>
+<script src="src/editormd.js"></script>
+<script type="text/javascript">
+    $(function() {
+        var editor = editormd("editormd", {
+            path : "lib/", // Autoload modules mode, codemirror, marked... dependents libs path
+			imageUpload : true,
+			imageFormats : [ "jpg", "jpeg", "gif", "png", "bmp", "webp" ],
+			imageUploadURL : "../../img/fileupload",
+			onload : function() {
+				//this.fullscreen();
+				//this.unwatch();
+				//this.watch().fullscreen();
+
+			//this.setMarkdown("#PHP");
+			//this.width("100%");
+			//this.height(480);
+			//this.resize("100%", 640);
+			},
+			tocm : true, 
+			tex : true, 
+			flowChart : true, 
+			sequenceDiagram : true,
+			emoji : true,
+			taskList : true,
+			codeFold : true,
+			searchReplace : true,
+		});
+
+        /*
+        // or
+        var editor = editormd({
+            id   : "editormd",
+            path : "../lib/"
+        });
+        */
+    });
+</script>
+
+<div id="editormd">
+    <textarea style="display:none;"></textarea>
+</div>

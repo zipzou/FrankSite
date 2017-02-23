@@ -1,0 +1,50 @@
+@CHARSET "UTF-8";
+
+#article-list > .am-panel > .am-panel-hd > h > i[class*=am-icon]:before {
+	font-size: 24px;
+}
+
+#article-list .am-panel:nth-child(1) {
+	margin-top: 48px;
+}
+
+#article-list .am-panel {
+	margin-bottom: 16px;
+}
+
+#article-list .am-panel i[class*=am-icon]:before {
+	font-size: 24px;
+}
+
+[id*=article-content-] {
+	text-indent: 2em;
+}
+
+
+.am-rotate-down  {
+	transform: rotate(90deg);
+	-ms-transform: rotate(90deg); /* IE 9 */
+	-moz-transform: rotate(90deg); /* Firefox */
+	-webkit-transform: rotate(90deg); /* Safari 和 Chrome */
+	-o-transform: rotate(90deg); /* Opera */
+}
+
+[class*=am-icon] {
+	transition: all 0.2s;
+	-moz-transition: all 0.2s; /* Firefox 4 */
+	-webkit-transition: all 0.2s; /* Safari 和 Chrome */
+	-o-transition: all 0.2s;/*Opera*/
+}
+
+.read-complete {
+	font-size: 12px;
+}
+
+code {
+	white-space: normal;
+	word-break: break-word;
+}
+
+img {
+	max-width: 100%;
+}

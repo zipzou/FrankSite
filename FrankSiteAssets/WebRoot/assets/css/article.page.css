@@ -1,0 +1,24 @@
+@CHARSET "UTF-8";
+
+.comment-area {
+	height: 400px;
+}
+
+.am-article-content {
+	min-height: 320px;
+}
+
+.am-comments-list {
+	margin-top: 56px;
+}
+
+pre {
+	background: transparent;
+	border: none;
+}
+
+code.inline-code {
+	display: inline-block;
+	word-wrap: break-word;
+    	white-space: normal;
+}
